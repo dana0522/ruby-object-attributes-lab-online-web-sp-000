@@ -22,4 +22,4 @@ end
 
 fido = Dog.new
 fido.name = "Fido"
-fido.instance_variable_get(:@name)
+puts fido.instance_variable_get(:@name)
