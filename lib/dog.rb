@@ -20,6 +20,3 @@ class Dog
 end
 
 
-fido = Dog.new
-fido.name = "Fido"
-puts fido.instance_variable_get(:@name)
